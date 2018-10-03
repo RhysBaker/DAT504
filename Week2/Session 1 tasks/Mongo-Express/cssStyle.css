@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ font-family:"Comic Sans MS",cursive, sans-serif;
+ font-size: 50px;
+}
+
+h1{
+
+}
+
+p{
+
+}
+
+img{
+
+}
+.parent{
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+#small{
+  flex:0.25;
+  background-color: red;
+}
+#small2{
+  flex:0.25;
+  background-color: green;
+}
+
+#box{
+  border-style: solid;
+  padding: 20px;
+}
+
+.child{
+  flex:1;
+  display: flex;
+  background-color: grey;
+  align-items: center;
+  justify-content:center;
+}
+
+
+/* --------- Start of media queries --------- */
+
+@media (min-width: 2880px) {
+
+}
+
+
+@media (max-width: 1026px) {
+
+
+}
+
+@media screen and (max-width : 800px) {
+
+}
+
+@media (max-width: 576px) {
+
+}

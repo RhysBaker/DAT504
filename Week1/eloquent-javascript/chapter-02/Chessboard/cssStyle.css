@@ -1,0 +1,28 @@
+body {
+
+}
+
+p{
+font-size: 30px;
+}
+
+
+/* --------- Start of media queries --------- */
+
+@media (min-width: 2880px) {
+
+}
+
+
+@media (max-width: 1026px) {
+
+
+}
+
+@media screen and (max-width : 800px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
