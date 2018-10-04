@@ -1,38 +1,13 @@
-body {
-
-}
-
 p{
-font-size: 30px; 
+font-size: 30px;
 }
 
-#paste{
+#first{
   font-size: 100px;
   color: orange;
 }
 
-#paste2{
+#second{
   font-size: 100px;
   color: pink;
-}
-
-
-/* --------- Start of media queries --------- */
-
-@media (min-width: 2880px) {
-
-}
-
-
-@media (max-width: 1026px) {
-
-
-}
-
-@media screen and (max-width : 800px) {
-
-}
-
-@media (max-width: 576px) {
-
 }
