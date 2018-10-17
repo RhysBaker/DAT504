@@ -1,0 +1,54 @@
+body {
+  color: #000;
+  background-color: #eee;
+  background-size: cover;
+}
+
+button{
+  padding: 4px 8px;
+}
+
+#addClothesTitle{
+  font-size: 27px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#dataTitle{
+  margin-top:2%;
+  font-size: 15px;
+  text-align: left;
+}
+
+#userInput{
+-webkit-padding-start: 3px;
+-moz-padding-start: 3px;
+border: 2px solid Black;
+font-weight: bold;
+font-size: 14px;
+width: 500px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.box-top{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-bottom{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+#submitBtn{
+  margin-top: 2%;
+  border: 2px solid Black;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
