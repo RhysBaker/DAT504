@@ -16,7 +16,7 @@ app.post('/addItems', function(req, res){
   db.collection("items").insertOne(req.body, function(err, result){
     if (err) throw err;
     console.log("Saved");
-    res.redirect('/');
+    res.redirect('/addClothes.html');
   })
 })
 

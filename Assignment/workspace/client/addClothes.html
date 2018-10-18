@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="x-icon" href="/img/icons/tab/tabicon.png"/>
+    <link rel="stylesheet" href="/mainstyle.css"/>
+    <link rel="stylesheet" href="/clothesstyle.css"/>
+    <script src="/script.js"></script>
+    <!--<script src="../js/script.js"></script>-->
+    <title>ELEMENTS</title>
+  </head>
+  <body onload="showCollection();">
+    <header>
+      <div class="headerChild1">
+        <div class="headerChild1Child1"><a href="index.html"><img src="/img/icons/nav/navIcon1B.png" width="30px"></a></div>
+        <div class="headerChild1Child2"><a href="addClothes.html"><img src="/img/icons/nav/navIcon2B.png" width="30px"></a></div>
+        <div class="headerChild1Child2"><a href="#"><img src="/img/icons/nav/navIcon3B.png" width="30px"></a></div>
+        <div class="headerChild1Child2"><a href="currentFit.html"><img src="/img/icons/nav/navIcon4B.png" width="30px"></a></div>
+        <div class="headerChild1Child2"><a href="#"><img src="/img/icons/nav/navIcon5B.png" width="30px"></a></div>
+      </div>
+      <div class="headerChild2">elements</div>
+      <div id="headerChild3">8:05am</div>
+    </header>
+    <content>
+      <div class="container">
+        <h1 id='addClothesTitle'>Add new item</h1>
+        <div class="box-bottom">
+          <form id="userForm" action="/addItems" method="post">
+            <h1 id='dataTitle'>NAME:</h1>
+            <input id="userInput" list="select1" name="username" onkeypress="return false;"/>
+            <datalist id="select1">
+              <option value="rhysbaker">RHYS</option>
+              <option value="tom">TOM</option>
+              <option value="sidney">SIDNEY</option>
+            </datalist>
+
+            <h1 id='dataTitle'>TYPE:</h1>
+            <input id="userInput" list="select2" name="type" onkeypress="return false;"/>
+            <datalist id="select2">
+              <option value="tshirt">T-SHIRT</option>
+              <option value="jacket">JACKET</option>
+              <option value="hoodie">HOODIE</option>
+              <option value="jeans">JEANS</option>
+              <option value="shorts">SHORTS</option>
+              <option value="trousers">TROUSERS</option>
+            </datalist>
+
+            <h1 id='dataTitle'>WARMTH:</h1>
+            <input id="userInput" list="select3" name="warmth" onkeypress="return false;"/>
+            <datalist id="select3">
+              <option value="cold">COLD</option>
+              <option value="cool">COOL</option>
+              <option value="hot">HOT</option>
+            </datalist>
+
+            <h1 id='dataTitle'>CATAGORY:</h1>
+            <input id="userInput" list="select4" name="catagory" onkeypress="return false;"/>
+            <datalist id="select4">
+              <option value="1">:)</option>
+              <option value="2">:(</option>
+            </datalist>
+
+            <h1 id='dataTitle'>COLOUR:</h1>
+            <input id="userInput" list="select5" name="colour" onkeypress="return false;"/>
+            <datalist id="select5">
+              <option value="yellow">YELLOW</option>
+              <option value="blue">BLUE</option>
+              <option value="black">BLACK</option>
+              <option value="purple">PURPLE</option>
+              <option value="green">GREEN</option>
+              <option value="red">RED</option>
+              <option value="orange">ORANGE</option>
+            </datalist>
+
+            <h1 id='dataTitle'>WASH:</h1>
+            <input id="userInput" list="select6" name="wash" onkeypress="return false;"/>
+            <datalist id="select6">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="2">3</option>
+            </datalist>
+
+            <h1 id='dataTitle'>WATERPROOF:</h1>
+            <input id="userInput" list="select7" name="waterproof" onkeypress="return false;"/>
+            <datalist id="select7">
+              <option value="yes">YES</option>
+              <option value="no">NO</option>
+            </datalist>
+
+            <h1 id='dataTitle'>TIMES WORN:</h1>
+            <input id="userInput" list="select8" name="timesWorn" onkeypress="return false;"/>
+            <datalist id="select8">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </datalist>
+            <div class="box-bottom">
+              <button id="submitBtn" onclick="added_item();" type="submit">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </content>
+
+
+
+    <footer>
+      DAT504 Advanced Web Technologies
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+body {
+  color: #000;
+  background-color: #eee;
+  background-size: cover;
+
+}
+
+button{
+  padding: 4px 8px;
+}
+
+#homeLogo{
+  z-index: -1;
+  order: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+}
+
+#userInput{
+-webkit-padding-start: 3px;
+-moz-padding-start: 3px;
+border: 2px solid Black;
+font-weight: bold;
+font-size: 14px;
+width: 300px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.box-top{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-bottom{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+#submitBtn{
+  margin-top: 2%;
+  border: 2px solid Black;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
