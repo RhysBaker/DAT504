@@ -5,7 +5,7 @@
   <link rel="shortcut icon" type="x-icon" href="/img/icons/tab/tabicon.png"/>
   <link rel="stylesheet" type="text/css" href="/mainstyle.css"/>
   <link rel="stylesheet" type="text/css" href="/indexstyle.css"/>
-  <script src="../js/script.js"></script>
+  <script src="/script.js"></script>
   <title>ELEMENTS</title>
 </head>
 <body>
@@ -29,12 +29,12 @@
         <form id="userForm" action="/addClothes.html">
           <input id="userInput" list="select0" name="username" onkeypress="return false;"/>
           <datalist id="select0">
-            <option value="RHYS">RHYS</option>
+            <option value="rhysbaker">RHYS</option>
             <option value="TOM">TOM</option>
             <option value="SIDNEY">SIDNEY</option>
           </datalist>
           <div class="box-bottom">
-            <button id="submitBtn" type="submit">SUBMIT</button>
+            <button id="submitBtn" type="submit" onclick="getuser();">SUBMIT</button>
           </div>
         </form>
       </div>
