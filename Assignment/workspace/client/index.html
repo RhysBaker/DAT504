@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="x-icon" href="/img/icons/tab/tabicon.png"/>
+  <link rel="stylesheet" type="text/css" href="/mainstyle.css"/>
+  <link rel="stylesheet" type="text/css" href="/indexstyle.css"/>
+  <script src="../js/script.js"></script>
+  <title>ELEMENTS</title>
+</head>
+<body>
+  <header>
+    <div class="headerChild1">
+      <div class="headerChild1Child1"><a href="index.html"><img src="/img/icons/nav/navIcon1B.png" width="30px"></a></div>
+      <div class="headerChild1Child2"><a href="addClothes.html"><img src="/img/icons/nav/navIcon2B.png" width="30px"></a></div>
+      <div class="headerChild1Child2"><a href="#"><img src="/img/icons/nav/navIcon3B.png" width="30px"></a></div>
+      <div class="headerChild1Child2"><a href="currentFit.html"><img src="/img/icons/nav/navIcon4B.png" width="30px"></a></div>
+      <div class="headerChild1Child2"><a href="#"><img src="/img/icons/nav/navIcon5B.png" width="30px"></a></div>
+    </div>
+    <!--<div class="headerChild2">elements</div>-->
+    <div id="headerChild3">8:05am</div>
+  </header>
+  <content>
+    <div class="container">
+      <div class="box-top">
+        <img id='homeLogo'src="/img/icons/tab/ElementLogo.png" height="400px" width="400px">
+      </div>
+      <div class="box-bottom">
+        <form id="userForm" action="/addClothes.html">
+          <input id="userInput" list="select0" name="username" onkeypress="return false;"/>
+          <datalist id="select0">
+            <option value="RHYS">RHYS</option>
+            <option value="TOM">TOM</option>
+            <option value="SIDNEY">SIDNEY</option>
+          </datalist>
+          <div class="box-bottom">
+            <button id="submitBtn" type="submit">SUBMIT</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </content>
+
+  <footer>
+    DAT504 Advanced Web Technologies
+  </footer>
+</body>
+</html>

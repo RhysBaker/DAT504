@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 
 }
@@ -26,3 +27,8 @@ font-size: 30px;
 @media (max-width: 576px) {
 
 }
+=======
+p{
+font-size: 30px;
+}
+>>>>>>> 3bba591bac3727c3cad9707250806d5362776769
