@@ -43,7 +43,7 @@
                 <div class="displayBox" id="bottomsDisplayBox">Black Trousers</div>
                 <p class="topsSectionTitle">TOPS:</p>
                 <div class="displayBox" id="outerwearDisplayBox">Black Waterproof Coat</div> -->
-                <div class="clothesList"></div>
+              <div class="clothesList"></div>
               </div>
           </div>
           <div class="outfitGraphicContainer">
@@ -63,7 +63,7 @@
     .then(function(myJson) {
 
         let findUser =  myJson.filter(function(username) {
-        return username.username == othername();
+        return username.username == "rhysbaker";
         });
         console.log("all items from username", findUser);
 
@@ -98,9 +98,9 @@
       var findUser =  myJson.filter(function(username) {
       return username.username == "rhysbaker";
       });
-            let dataFeed = findJeans.map((myClothes) => {
+            let dataFeed = findUser.map((myClothes) => {
                 return `
-                        <ul stlye="list-style-type: none;" id="clothingList">
+                        <ul stlye="list-style: none;" id="clothingList">
                         <li id='cL'>Type: ${myClothes.type}</li>
                         <li id='cL'>Colour: ${myClothes.colour}</li>
                         <li id='cL'>Warmth: "${myClothes.warmth}"</li>
